@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E324BAA1BBCA5E00031B8CA /* animationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E324BA91BBCA5E00031B8CA /* animationView.swift */; settings = {ASSET_TAGS = (); }; };
+		3E324BAC1BBCA6060031B8CA /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E324BAB1BBCA6060031B8CA /* AnimationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3E324BAE1BBCA6F50031B8CA /* animationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E324BAD1BBCA6F50031B8CA /* animationView.xib */; settings = {ASSET_TAGS = (); }; };
+		3E519AC41BB3797200632802 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E519AC31BB3797200632802 /* Graph.m */; settings = {ASSET_TAGS = (); }; };
+		3EEC9E141BB463CD00740273 /* DRCCustomImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC9E131BB463CD00740273 /* DRCCustomImagePickerController.swift */; settings = {ASSET_TAGS = (); }; };
+		3EEC9E161BB465DE00740273 /* ViewControllerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC9E151BB465DE00740273 /* ViewControllerDemo.swift */; settings = {ASSET_TAGS = (); }; };
+		3EEC9E181BB46C8200740273 /* ViewControllerfilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC9E171BB46C8200740273 /* ViewControllerfilter.swift */; settings = {ASSET_TAGS = (); }; };
 		3EF2B7431BB2050C0096591F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2B7421BB2050C0096591F /* AppDelegate.swift */; };
 		3EF2B7451BB2050C0096591F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2B7441BB2050C0096591F /* ViewController.swift */; };
 		3EF2B7481BB2050C0096591F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2B7461BB2050C0096591F /* Main.storyboard */; };
@@ -14,6 +21,10 @@
 		3EF2B74D1BB2050C0096591F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2B74B1BB2050C0096591F /* LaunchScreen.storyboard */; };
 		3EF2B7581BB2050D0096591F /* testSBRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2B7571BB2050D0096591F /* testSBRTests.swift */; };
 		3EF2B7631BB2050D0096591F /* testSBRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2B7621BB2050D0096591F /* testSBRUITests.swift */; };
+		3EF2B7751BB212E10096591F /* Two.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2B7731BB212E10096591F /* Two.storyboard */; settings = {ASSET_TAGS = (); }; };
+		3EF2B77A1BB31CEA0096591F /* photoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2B7791BB31CEA0096591F /* photoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		3EF2B77C1BB31E080096591F /* CameraOverlay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2B77B1BB31E080096591F /* CameraOverlay.xib */; settings = {ASSET_TAGS = (); }; };
+		3EF2B77E1BB326990096591F /* CameraOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2B77D1BB326990096591F /* CameraOverlay.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E324BA91BBCA5E00031B8CA /* animationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = animationView.swift; sourceTree = "<group>"; };
+		3E324BAB1BBCA6060031B8CA /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		3E324BAD1BBCA6F50031B8CA /* animationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = animationView.xib; sourceTree = "<group>"; };
+		3E519AC21BB3797100632802 /* testSBR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testSBR-Bridging-Header.h"; sourceTree = "<group>"; };
+		3E519AC31BB3797200632802 /* Graph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
+		3E519AC51BB379AB00632802 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		3EEC9E131BB463CD00740273 /* DRCCustomImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRCCustomImagePickerController.swift; sourceTree = "<group>"; };
+		3EEC9E151BB465DE00740273 /* ViewControllerDemo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDemo.swift; sourceTree = "<group>"; };
+		3EEC9E171BB46C8200740273 /* ViewControllerfilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerfilter.swift; sourceTree = "<group>"; };
 		3EF2B73F1BB2050C0096591F /* testSBR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testSBR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF2B7421BB2050C0096591F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EF2B7441BB2050C0096591F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,10 @@
 		3EF2B75E1BB2050D0096591F /* testSBRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testSBRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF2B7621BB2050D0096591F /* testSBRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testSBRUITests.swift; sourceTree = "<group>"; };
 		3EF2B7641BB2050D0096591F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF2B7741BB212E10096591F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Two.storyboard; sourceTree = "<group>"; };
+		3EF2B7791BB31CEA0096591F /* photoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = photoViewController.swift; sourceTree = "<group>"; };
+		3EF2B77B1BB31E080096591F /* CameraOverlay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraOverlay.xib; sourceTree = "<group>"; };
+		3EF2B77D1BB326990096591F /* CameraOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraOverlay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EEC9E121BB4623D00740273 /* CustomImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3E519AC31BB3797200632802 /* Graph.m */,
+				3E519AC51BB379AB00632802 /* Graph.h */,
+				3EF2B77B1BB31E080096591F /* CameraOverlay.xib */,
+				3EEC9E131BB463CD00740273 /* DRCCustomImagePickerController.swift */,
+				3EF2B77D1BB326990096591F /* CameraOverlay.swift */,
+			);
+			name = CustomImagePicker;
+			sourceTree = "<group>";
+		};
 		3EF2B7361BB2050C0096591F = {
 			isa = PBXGroup;
 			children = (
@@ -100,9 +136,18 @@
 				3EF2B7421BB2050C0096591F /* AppDelegate.swift */,
 				3EF2B7441BB2050C0096591F /* ViewController.swift */,
 				3EF2B7461BB2050C0096591F /* Main.storyboard */,
+				3E324BA91BBCA5E00031B8CA /* animationView.swift */,
+				3E324BAD1BBCA6F50031B8CA /* animationView.xib */,
+				3E324BAB1BBCA6060031B8CA /* AnimationViewController.swift */,
+				3EF2B7731BB212E10096591F /* Two.storyboard */,
+				3EEC9E151BB465DE00740273 /* ViewControllerDemo.swift */,
+				3EF2B7791BB31CEA0096591F /* photoViewController.swift */,
+				3EEC9E171BB46C8200740273 /* ViewControllerfilter.swift */,
+				3EEC9E121BB4623D00740273 /* CustomImagePicker */,
 				3EF2B7491BB2050C0096591F /* Assets.xcassets */,
 				3EF2B74B1BB2050C0096591F /* LaunchScreen.storyboard */,
 				3EF2B74E1BB2050C0096591F /* Info.plist */,
+				3E519AC21BB3797100632802 /* testSBR-Bridging-Header.h */,
 			);
 			path = testSBR;
 			sourceTree = "<group>";
@@ -187,6 +232,7 @@
 		3EF2B7371BB2050C0096591F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Kan Chen";
 				TargetAttributes = {
@@ -229,6 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EF2B74D1BB2050C0096591F /* LaunchScreen.storyboard in Resources */,
+				3EF2B7751BB212E10096591F /* Two.storyboard in Resources */,
+				3EF2B77C1BB31E080096591F /* CameraOverlay.xib in Resources */,
+				3E324BAE1BBCA6F50031B8CA /* animationView.xib in Resources */,
 				3EF2B74A1BB2050C0096591F /* Assets.xcassets in Resources */,
 				3EF2B7481BB2050C0096591F /* Main.storyboard in Resources */,
 			);
@@ -256,6 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EF2B7451BB2050C0096591F /* ViewController.swift in Sources */,
+				3EF2B77E1BB326990096591F /* CameraOverlay.swift in Sources */,
+				3E324BAA1BBCA5E00031B8CA /* animationView.swift in Sources */,
+				3EEC9E181BB46C8200740273 /* ViewControllerfilter.swift in Sources */,
+				3EF2B77A1BB31CEA0096591F /* photoViewController.swift in Sources */,
+				3E519AC41BB3797200632802 /* Graph.m in Sources */,
+				3EEC9E161BB465DE00740273 /* ViewControllerDemo.swift in Sources */,
+				3E324BAC1BBCA6060031B8CA /* AnimationViewController.swift in Sources */,
+				3EEC9E141BB463CD00740273 /* DRCCustomImagePickerController.swift in Sources */,
 				3EF2B7431BB2050C0096591F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +363,14 @@
 				3EF2B74C1BB2050C0096591F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF2B7731BB212E10096591F /* Two.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF2B7741BB212E10096591F /* Base */,
+			);
+			name = Two.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -398,10 +463,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = testSBR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aa.testSBR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testSBR/testSBR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -409,10 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = testSBR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aa.testSBR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testSBR/testSBR-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -483,6 +555,7 @@
 				3EF2B7691BB2050D0096591F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EF2B76A1BB2050D0096591F /* Build configuration list for PBXNativeTarget "testSBRTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +564,7 @@
 				3EF2B76C1BB2050D0096591F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EF2B76D1BB2050D0096591F /* Build configuration list for PBXNativeTarget "testSBRUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +573,7 @@
 				3EF2B76F1BB2050D0096591F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
