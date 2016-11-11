@@ -18,7 +18,7 @@ class animationView: UIView {
     }
     */
     override func awakeFromNib() {
-        self.backgroundColor = UIColor.yellowColor()
+        self.backgroundColor = UIColor.grayColor()
     }
 
 }
