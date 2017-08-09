@@ -37,7 +37,7 @@
     }
     
     CGFloat scaleRatio = bounds.size.width / width;
-    CGSize imageSize = CGSizeMake(CGImageGetWidth(imgRef), CGImageGetHeight(imgRef));
+    CGSize imageSize = CGSizeMake(CGImageGetWidth(imgRef), CGImageGetHeight(imgRef));fadsfadsfas
     CGFloat boundHeight;
     UIImageOrientation orient = image.imageOrientation;
     switch(orient) {
@@ -110,7 +110,7 @@
     else {
         CGContextScaleCTM(context, scaleRatio, -scaleRatio);
         CGContextTranslateCTM(context, 0, -height);
-    }
+    }dfasdfas
     
     CGContextConcatCTM(context, transform);
     
@@ -121,4 +121,4 @@
     return imageCopy;
 }
 
-@end
+@endasdfadsfasd
